@@ -45,6 +45,7 @@ img {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
+  align-items: center;
 }
 .section {
   padding-top: 94px;
@@ -123,8 +124,13 @@ img {
 /* section GENERAL */
 
 .general {
-  background-color: var(--blackBackground-color);
-  height: 600px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/general.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 200px 0;
 }
 .general-text {
@@ -137,8 +143,7 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   width: 692px;
-  margin-bottom: 30px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 .general-button {
   background-color: var(--secondary-color);
