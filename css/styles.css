@@ -295,21 +295,33 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: red;
+  background-color: rgba(255, 255, 255, 1);
   justify-content: center;
   align-items: center;
+}
+.icon-social-media {
+  width: 20px;
+  height: 20px;
+  fill: rgba(175, 177, 184, 1);
 }
 .social-media-link:hover,
 .social-media-link:focus {
   fill: rgba(255, 255, 255, 1);
   background-color: rgba(33, 150, 243, 1);
 }
-.icon-social-media {
-  width: 20px;
-  height: 20px;
-}
 
 /* section TEAM END */
+
+/* section OUR CLIENTS */
+
+.our-clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
 
 /* section FOOTER */
 .footer {
@@ -317,7 +329,9 @@ img {
 }
 .footer > .container {
   padding: 60px 0;
+  display: flex;
 }
+
 .footer > .container > .header-logo {
   padding-top: 0;
   margin: auto;
@@ -355,6 +369,49 @@ img {
 .address-footer-list-item-contacts-link:focus {
   color: var(--secondary-color);
 }
+/* footer-left END */
+
+/* footer-right */
+.footer-right {
+  width: 206px;
+  margin-left: 70px;
+  padding-top: 0;
+}
+.footer-right-title {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  line-height: 1.143em;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+.social-media-list-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-media-link-footer {
+  /* Ellipse */
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-social-media-footer {
+  width: 20px;
+  height: 20px;
+  fill: rgba(255, 255, 255, 1);
+}
+.social-media-link-footer:hover,
+.social-media-link-footer:focus {
+  background-color: rgba(33, 150, 243, 1);
+}
+/* footer-right END */
+
 /* section FOOTER END*/
 
 /* =============PORTFOLIO============ */
