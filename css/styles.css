@@ -298,11 +298,11 @@ img {
   background-color: rgba(255, 255, 255, 1);
   justify-content: center;
   align-items: center;
+  fill: rgba(175, 177, 184, 1);
 }
 .icon-social-media {
   width: 20px;
   height: 20px;
-  fill: rgba(175, 177, 184, 1);
 }
 .social-media-link:hover,
 .social-media-link:focus {
@@ -322,7 +322,32 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+.clients-link {
+  height: 92px;
+  width: 170px;
+  border-radius: 4px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: rgba(175, 177, 184, 1);
+}
+.icon-clients {
+  width: 106px;
+  height: 60px;
+}
+.clients-link:hover,
+.clients-link:focus {
+  fill: rgba(33, 150, 243, 1);
+  border: 1px solid rgba(33, 150, 243, 1);
+}
+/* section OUR CLIENTS END */
 
+/* ============================== */
 /* section FOOTER */
 .footer {
   background-color: var(--blackBackground-color);
