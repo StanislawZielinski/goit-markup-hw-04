@@ -102,6 +102,18 @@ img {
   color: var(--secondary-color);
 }
 
+.icon-envelope {
+  width: 16px;
+  height: 10px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
 .address {
   width: 295px;
 }
@@ -112,11 +124,14 @@ img {
 }
 .address-list-item-link {
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 
 .address-list-item-link:hover,
 .address-list-item-link:focus {
   color: var(--secondary-color);
+  fill: var(--secondary-color);
 }
 
 /* section HEADER END */
@@ -128,7 +143,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/general.jpg");
+    url("../images/background/general.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 200px 0;
