@@ -112,10 +112,9 @@ img {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: currentColor;
 }
 .address {
-  width: 295px;
+  width: 321px;
 }
 .address-list {
   display: flex;
@@ -188,7 +187,22 @@ img {
 .description-box :not(last-child) {
   margin-right: 30px;
 }
-
+.description-icon {
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  background: rgba(245, 244, 250, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-antenna,
+.icon-clock,
+.icon-diagram,
+.icon-astronaut {
+  width: 70px;
+  height: 70px;
+}
 .description-box-title {
   font-weight: 700;
   font-size: 14px;
@@ -242,11 +256,15 @@ img {
 }
 .team-list-item {
   width: 270px;
-  height: 368px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background: rgba(255, 255, 255, 1);
+  padding-bottom: 30px;
+}
+.team-img {
+  width: 270px;
+  height: 260px;
 }
 .team-name {
   font-weight: 500;
@@ -254,7 +272,7 @@ img {
   line-height: 1.188em;
   text-align: center;
   letter-spacing: 0.03em;
-  padding: 30px 0 10px;
+  margin: 30px auto 0;
 }
 
 .team-position {
@@ -263,7 +281,27 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-bottom: 30px;
+  margin: 10px auto 0;
+}
+.social-media-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-media-link {
+  /* Ellipse */
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.icon-social-media {
+  width: 20px;
+  height: 20px;
 }
 
 /* section TEAM END */
