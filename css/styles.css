@@ -464,6 +464,13 @@ img {
 }
 .btn-filtr-content:hover,
 .btn-filtr-content:focus {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn-filtr-content:hover,
+.btn-filtr-content:focus {
   background: var(--secondary-color);
   color: #ffffff;
 }
@@ -492,6 +499,14 @@ img {
   width: 370px;
   height: 404px;
   margin-bottom: 30px;
+}
+.portfolio-list-item:hover,
+.portfolio-list-item:focus {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .portfolio-list-item-text {
   padding: 24px 20px;
