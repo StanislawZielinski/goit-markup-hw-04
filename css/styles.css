@@ -195,6 +195,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 .icon-antenna,
 .icon-clock,
@@ -209,6 +210,7 @@ img {
   line-height: 1.143em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .description-box-text {
@@ -489,6 +491,7 @@ img {
 }
 
 .portfolio-list-item-title {
+  color: rgba(33, 33, 33, 1);
   font-weight: 700;
   font-size: 18px;
   line-height: 2em;
@@ -502,12 +505,10 @@ img {
 }
 .portfolio-list-item:hover,
 .portfolio-list-item:focus {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
-
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
+
 .portfolio-list-item-text {
   padding: 24px 20px;
   border-left: 1px solid rgba(238, 238, 238, 1);
